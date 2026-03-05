@@ -1,0 +1,80 @@
+body{
+    background-color: #202124;
+}
+.Title{
+    color: white;
+    font-size: 8em;
+    text-align: center;
+    padding: 25px;
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 5px 5px 8px grey;
+}
+
+.Main{ 
+    size: em;
+    width: 550px;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 200px;
+    
+}
+
+.searchButtons button{
+    background-color: rgb(48, 49, 52) ;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0.1s;
+}
+
+.searchButtons button:hover{
+    font-size: 20px;
+    color: rebeccapurple;
+    background-color: grey;
+}
+
+.searchButtons div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.Search{
+    border-radius: 25px;
+    background-color: rgb(48, 49, 52);
+    color: white;
+    width: 550px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    background-color: rgb(48, 49, 52);
+    padding: 5px;
+    width: 450px;
+    height: 32px;
+    border: none;
+}
+
+#searchIcon{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    border:none ;
+    filter: saturation(800%)invert(100%);
+    transition: 0.1s;
+}
+
+#searchIcon:hover{
+    height:40px;    
+    width: 40px;  
+}
